@@ -270,7 +270,7 @@ html {
   .w-button {
     display: inline-block;
     padding: 9px 15px;
-    background-color: #3898ec;
+    background-color: none;
     color: white;
     border: 0;
     line-height: inherit;
@@ -2647,6 +2647,7 @@ html {
     padding-bottom: 2rem;
     border: 1px none transparent;
     color: #4b4848;
+    outline-color: none;
   }
   
   .fs-styleguide_2-col {
@@ -3411,6 +3412,7 @@ html {
   .page-padding-2 {
     padding-right: 5%;
     padding-left: 5%;
+    outline-color: none;
   }
   
   .button-row {
@@ -4727,6 +4729,7 @@ html {
       padding-right: 3rem;
       padding-left: 3rem;
       padding-bottom: 1rem;
+      outline-color: none;
     }
   
     .show-tablet {
@@ -5568,6 +5571,7 @@ html {
       padding-right: 2.2rem;
       padding-left: 2.2rem;
       padding-bottom: 1rem;
+      outline-color: none;
     }
   
     .show-mobile-landscape {
