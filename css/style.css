@@ -538,7 +538,6 @@ html {
   }
   .w-input:focus,
   .w-select:focus {
-    border-color: #3898ec;
     outline: 0;
   }
   .w-input[disabled],
@@ -1321,8 +1320,7 @@ html {
     display: block;
     color: #222222;
   }
-  .w-dropdown-link.w--current {
-    color: #0082f3;
+  .w-dropdown-link.w--current {  
   }
   .w-dropdown-link:focus {
     outline: 0;
