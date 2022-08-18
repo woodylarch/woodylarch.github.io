@@ -1889,13 +1889,13 @@ html {
     text-align: left;
     cursor: pointer;
     color: #222222;
-    background-color: #dddddd;
+    background-color: none;
   }
   .w-tab-link.w--current {
-    background-color: #c8c8c8;
+    background-color: none;
   }
   .w-tab-link:focus {
-    outline: 0;
+    outline: none;
   }
   .w-tab-content {
     position: relative;
@@ -2825,7 +2825,7 @@ html {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    border: 1px solid #6e7d8c;
+    border: none;
     background-color: transparent;
     -webkit-transition: -webkit-transform 450ms
       cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -2863,7 +2863,8 @@ html {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    border: 1px solid #6e7d8c;
+    border: transparent;
+    border-style: none;
     background-color: transparent;
     -webkit-transition: all 450ms cubic-bezier(0.215, 0.61, 0.355, 1);
     transition: all 450ms cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -3729,6 +3730,7 @@ html {
   
   .home-service-tabl-link.button-text.w--current {
     background-color: transparent;
+    border-color: transparent;
   }
   
   .home-service-tabl-link.button-text.text-align-left {
@@ -3741,6 +3743,7 @@ html {
     -ms-flex-pack: start;
     justify-content: flex-start;
     border-style: none;
+    border-color: transparent;
     border-width: 1px;
     text-align: left;
   }
