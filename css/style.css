@@ -1612,11 +1612,11 @@ html {
   }
   .w-richtext .w-richtext-figure-selected.w-richtext-figure-type-video div:after,
   .w-richtext .w-richtext-figure-selected[data-rt-type="video"] div:after {
-    outline: 2px solid #2895f7;
+    outline: none;
   }
   .w-richtext .w-richtext-figure-selected.w-richtext-figure-type-image div,
   .w-richtext .w-richtext-figure-selected[data-rt-type="image"] div {
-    outline: 2px solid #2895f7;
+    outline: none;
   }
   .w-richtext figure.w-richtext-figure-type-video > div:after,
   .w-richtext figure[data-rt-type="video"] > div:after {
@@ -2024,11 +2024,11 @@ html {
   }
   
   .w-checkbox-input--inputType-custom.w--redirected-checked {
-    background-color: #3898ec;
-    border-top-color: #3898ec;
-    border-bottom-color: #3898ec;
-    border-left-color: #3898ec;
-    border-right-color: #3898ec;
+    background-color: none;
+    border-top-color: none;
+    border-bottom-color: none;
+    border-left-color: none;;
+    border-right-color: none;;
     background-image: url(https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg);
     background-position: 50% 50%;
     background-size: cover;
@@ -2036,7 +2036,7 @@ html {
   }
   
   .w-checkbox-input--inputType-custom.w--redirected-focus {
-    box-shadow: 0px 0px 3px 1px #3898ec;
+    box-shadow: none;
   }
   
   .w-form-formradioinput--inputType-custom {
@@ -2061,7 +2061,7 @@ html {
   }
   
   .w-form-formradioinput--inputType-custom.w--redirected-focus {
-    box-shadow: 0px 0px 3px 1px #3898ec;
+    box-shadow: none;
   }
   
   .w-form-formradioinput--inputType-custom.w--redirected-checked {
@@ -2069,10 +2069,10 @@ html {
     border-bottom-width: 4px;
     border-left-width: 4px;
     border-right-width: 4px;
-    border-top-color: #3898ec;
-    border-bottom-color: #3898ec;
-    border-left-color: #3898ec;
-    border-right-color: #3898ec;
+    border-top-color: none;
+    border-bottom-color: none;
+    border-left-color: none;
+    border-right-color: none;
   }
   
   body {
@@ -2581,7 +2581,7 @@ html {
     height: 0.875rem;
     margin: 0rem 0.5rem 0rem 0rem;
     border-radius: 0.125rem;
-    box-shadow: 0 0 0.25rem 0rem #3898ec;
+    box-shadow: 0 0 0.25rem 0rem none;
   }
   
   .container-large {
@@ -2699,7 +2699,7 @@ html {
   .form-radio-icon.w--redirected-focus {
     width: 0.875rem;
     height: 0.875rem;
-    box-shadow: 0 0 0.25rem 0rem #3898ec;
+    box-shadow: 0 0 0.25rem 0rem none;
   }
   
   .show-mobile-landscape {
