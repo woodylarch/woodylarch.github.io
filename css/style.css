@@ -2646,6 +2646,7 @@ html {
   .page-padding {
     padding-right: 6rem;
     padding-left: 8rem;
+    padding-bottom: 2rem;
     border: 1px none transparent;
     color: #4b4848;
   }
@@ -4727,6 +4728,7 @@ html {
     .page-padding {
       padding-right: 3rem;
       padding-left: 3rem;
+      padding-bottom: 1rem;
     }
   
     .show-tablet {
@@ -5567,6 +5569,7 @@ html {
     .page-padding {
       padding-right: 2.2rem;
       padding-left: 2.2rem;
+      padding-bottom: 1rem;
     }
   
     .show-mobile-landscape {
