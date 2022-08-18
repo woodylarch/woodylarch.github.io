@@ -1750,7 +1750,7 @@ html {
     margin-right: auto;
   }
   .w-nav-link.w--current {
-    color: #0082f3;
+    color: #333;
   }
   .w-nav-menu {
     position: relative;
